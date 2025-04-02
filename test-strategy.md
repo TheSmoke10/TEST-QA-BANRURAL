@@ -32,3 +32,8 @@ Se realizaron diversas correcciones al código del juego "Adivina tu número" pa
 - **Problema:**
   - Se generaba un número decimal entre 0 y 10 en lugar de un número entero entre 1 y 100.
 - **Solución:** Se usó Math.floor(Math.random() * 100) + 1 para asegurar un número entero dentro del rango adecuado.
+
+**6. Colores incorrectos y numeros de intentos incorrectos**
+- **Problema:**
+- Los Colores de Correcto e incorrecto estaban invertidos por lo que corrigio 
+- **Solución:** invertir ambos colores y colocar 10 en la variable TEMP el cual tiene el numero de intentos.
